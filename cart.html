@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="navbar" id="nav">
+        <a href="Index.html">
+            <h2>
+                <svg width="16px" height="14px" viewBox="-51.2 -51.2 614.40 614.40" xmlns="http://www.w3.org/2000/svg" fill="#050dff" stroke="#050dff" stroke-width="10.751999999999999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#00fbff" d="M19.828 18.256l-.002.015c249.642 36.995 371.904 169.983 397.32 278.01-2.094 5.977-4.496 11.044-7.068 14.968-17.29 26.383-62.522 40.075-101.654 28.596 5.984-19.75 10.132-39.834 12.07-59.12-95.46 8.177-212.544 8.42-301.207-22.642 41.727 95.317 99.325 164.465 164.983 230.08 18.296-2.164 35.807-11.35 51.837-25.37 85.218 34.667 188.066-2.555 226.748-60.68 46.922-70.5 74.07-317.52-167.462-383.856H232.81c160.326 54.874 195.73 167.74 191.573 239.03-37.15-93.627-137.68-191.855-312.38-239.03H19.83z"></path></g></svg>                Go home
+            </h2>
+        </a>
+        <div class="container">
+            <button id="home">Home</button>
+            <button id="fashion">Fashion Update</button>
+            <button id="services">Services</button>
+            <button id="about">About us</button>
+        </div>
+        <div class="cart-icon">
+            <div class="cart">
+                <svg width="64px" height="64px" viewBox="-2.4 -2.4 28.80 28.80" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#0027c2" stroke="#0027c2">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <defs>
+                            <polygon id="cart-a" points="0 0 1 3 11 3 12 0"></polygon>
+                            <path id="cart-c"
+                                d="M4.01867032,7 L15.8260605,7 C15.8624695,7 15.8984188,7.0019917 15.9338076,7.00587329 L18.2075854,0.659227726 C18.3493483,0.263534454 18.7208253,0 19.1368299,0 L22.0108287,0 C22.5567095,0 22.9992334,0.44771525 22.9992334,1 C22.9992334,1.55228475 22.5567095,2 22.0108287,2 L19.8298966,2 L15.7669004,13.3407723 C15.6251376,13.7364655 15.2536606,14 14.8376559,14 L4.95360962,14 C4.52817021,14 4.15046241,13.7245699 4.01592666,13.3162278 L1.05071278,4.31622777 C0.83737186,3.66869665 1.31375252,3 1.98839574,3 L10.8840374,3 C11.4299182,3 11.872442,3.44771525 11.872442,4 C11.872442,4.55228475 11.4299182,5 10.8840374,5 L3.35973391,5 L4.01867032,7 Z M4.67760674,9 L5.66601137,12 L14.1445893,12 L15.2193828,9 L4.67760674,9 Z M6.93041888,19 C5.83865727,19 4.95360962,18.1045695 4.95360962,17 C4.95360962,15.8954305 5.83865727,15 6.93041888,15 C8.02218048,15 8.90722813,15.8954305 8.90722813,17 C8.90722813,18.1045695 8.02218048,19 6.93041888,19 Z M13.8492513,19 C12.7574897,19 11.872442,18.1045695 11.872442,17 C11.872442,15.8954305 12.7574897,15 13.8492513,15 C14.9410129,15 15.8260605,15.8954305 15.8260605,17 C15.8260605,18.1045695 14.9410129,19 13.8492513,19 Z">
+                            </path>
+                        </defs>
+                        <g fill="none" fill-rule="evenodd" transform="translate(0 3)">
+                            <g transform="translate(4 10)">
+                                <mask id="cart-b" fill="#ffffff">
+                                    <use xlink:href="#cart-a"></use>
+                                </mask>
+                                <use fill="#D8D8D8" xlink:href="#cart-a"></use>
+                                <g fill="#FFA0A0" mask="url(#cart-b)">
+                                    <rect width="24" height="24" transform="translate(-4 -13)"></rect>
+                                </g>
+                            </g>
+                            <mask id="cart-d" fill="#ffffff">
+                                <use xlink:href="#cart-c"></use>
+                            </mask>
+                            <use fill="#000000" fill-rule="nonzero" xlink:href="#cart-c"></use>
+                            <g fill="#00fbff" mask="url(#cart-d)">
+                                <rect width="24" height="24" transform="translate(0 -3)"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <div id="cartAmount" class="cartAmount">0</div>
+            </div>
+        </div>
+    </div>
+    <div id="label" class="text-center"></div>
+
+    <div class="shopping-cart" id="shopping-cart"></div>
+    <script src="Data.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
